@@ -1,0 +1,54 @@
+{
+  "name": "max-real-spotify-shuffle",
+  "version": "1.0.0",
+  "description": "A lightweight frontend-only app for true randomized Spotify playlist shuffling.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "lint": "oxlint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meddy/max-real-spotify-shuffle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meddy/max-real-spotify-shuffle/issues"
+  },
+  "homepage": "https://github.com/meddy/max-real-spotify-shuffle#readme",
+  "dependencies": {
+    "@spotify/web-api-ts-sdk": "^1.2.0",
+    "@tanstack/react-query": "^5.100.10",
+    "firebase": "^12.13.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "@vitest/coverage-v8": "^4.1.6",
+    "autoprefixer": "^10.5.0",
+    "jsdom": "^29.1.1",
+    "oxlint": "^1.64.0",
+    "postcss": "^8.5.14",
+    "prettier": "^3.8.3",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.12",
+    "vitest": "^4.1.6"
+  }
+}

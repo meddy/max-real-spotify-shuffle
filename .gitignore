@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+.vite/
+.firebase/
+
+.env
+.env.local
+.env.*.local
+
+*.log
+.DS_Store
+
+.agents

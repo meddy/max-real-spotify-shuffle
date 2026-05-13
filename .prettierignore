@@ -1,0 +1,7 @@
+dist/
+coverage/
+*.lock
+.firebase/
+node_modules/
+.agents/
+skills-lock.json
